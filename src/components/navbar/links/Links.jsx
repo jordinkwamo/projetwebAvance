@@ -10,12 +10,12 @@ const tab = [
         path: "/",
     },
     {
-        title:"Evenment 1",
-        path: "/event1",
+        title:"football",
+        path: "/football",
     },
     {
-        title:"Evenement 2",
-        path: "/event2",
+        title:"basketball",
+        path: "/basketball",
     },
     {
         title:"Contact",
