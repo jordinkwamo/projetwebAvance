@@ -30,7 +30,7 @@ export default function Home() {
            On se voit sur le terrain ! 🏀🔥"
 					textButton1="voir plus"
 					textButton2="reserver"
-					srcImg="/dunk.jpg"
+					srcImg="/bask.jpg"
 					altImg="artiste"
 				/>
 
@@ -49,7 +49,7 @@ export default function Home() {
 					altImg="artiste"
 				/>
 
-<Template
+{/* <Template
 					title="Volley Ball"
 					description="Prépare-toi à plonger, à smasher et à servir lors de notre événement
            de volley-ball ! Rejoins-nous pour une journée remplie de passes précises,
@@ -62,7 +62,7 @@ export default function Home() {
 					textButton2="reserver"
 					srcImg="/volley.jpg"
 					altImg="artiste"
-				/>
+				/> */}
     </>
   )
 }
