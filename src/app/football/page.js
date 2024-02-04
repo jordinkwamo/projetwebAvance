@@ -11,10 +11,10 @@ const Event1 = () => {
       <h2 className={Styles.h2}>Equipes Participantes</h2>
 
      <div className={Styles.cardcont}>
-     <Card/>
-      <Card/>
-      <Card/>
-      <Card/>
+      <Card src="/foot.jpg" titre="RMA" description="Best" />
+      <Card src="/foot.jpg" titre="FCB" description="Worst" />
+      <Card src="/foot.jpg" titre="SEV" description="Better" />
+      <Card src="/foot.jpg" titre="ATM" description="Cheat" />
      </div>
     </div>
   )
