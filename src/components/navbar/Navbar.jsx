@@ -5,7 +5,7 @@ import Links from './links/Links'
 const Navbar = () => {
   return (
     <div className={styles.container}>
-        <div className={styles.logo}>LOGO</div>
+        <div className={styles.logo}>MultiSport Arena</div>
         <div ><Links/> </div>
     </div>
     
