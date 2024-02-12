@@ -5,23 +5,27 @@ import styles from "./links.module.css";
 import { usePathname } from "next/navigation";
 
 const tab = [
-    {
-        title:"Home",
-        path: "/",
-    },
-    {
-        title:"football",
-        path: "/football",
-    },
-    {
-        title:"basketball",
-        path: "/basketball",
-    },
-    {
-        title:"Contact",
-        path: "/Contact",
-    }
+  {
+    title: "Home",
+    path: "/",
+  },
+  {
+    title: "football",
+    path: "/football",
+  },
+  {
+    title: "basketball",
+    path: "/basketball",
+  },
+  {
+    title: "handball",
+    path: "/handball",
+  },
 
+  {
+    title: "Contact",
+    path: "/contact",
+  },
 ];
 
 const Links = () => {
