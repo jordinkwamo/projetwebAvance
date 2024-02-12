@@ -19,7 +19,7 @@ const tab = [
     },
     {
         title:"Contact",
-        path: "/contact",
+        path: "/Contact",
     }
 
 ];

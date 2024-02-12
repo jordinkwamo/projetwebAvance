@@ -21,19 +21,19 @@
 .mobileButton,
 .mobileLinks{
     display: none;
+    margin: 10px;
 }
 
 
-@media(max-width: 768px){
+@media(max-width: 786px){
     .LinksContainer{
         display: none;
+      
     }
 
     .mobileLinks{
-        position: absolute;
         top:100px;
-        right: 0px;
-        height: calc(100vh - 100px);
+        height: calc(100vh - 450px);
         background-color: var(--text);
         padding:10px;
         display: flex;
