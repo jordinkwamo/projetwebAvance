@@ -9,10 +9,10 @@ const Event2 = () => {
       <h2 className={Styles.h2}>Equipes Participantes</h2>
 
      <div className={Styles.cardcont}>
-     <Card src="/equipe A basketball.jpg" titre="GALAXY DENVER" description=" Galaxy denver est une équipe de basketball reconnue pour leur jeu aérien et leur agilité sur le terrain."/>
-      <Card src="/equipe b basketball.jpg" titre="AIGLES ROYAL" description="Aigles royal est une équipe de basketball redoutable connue pour leur force physique et leur détermination"/>
-      <Card src="/equipe c basketball.jpg" titre="TAM DE MENOUE" description="Tam de menoue est une équipe de basketball célèbre pour leur vitesse éclair et leur précision chirurgicale."/>
-      <Card src="/last.jpg" titre="WASHINGTON" description="WASHINGTON est une équipe de basketball redoutée pour leur défense impénétrable et leur domination physique sous le panier."/>
+     <Card src="/equipe A basketball.jpg" titre="GALAXY" description="Une équipe de basket-ball qui brille comme des étoiles, avec des joueurs talentueux et spectaculaires."/>
+      <Card src="/equipe b basketball.jpg" titre="AIGLES" description="Une équipe de basket-ball puissante et féroce, prête à attaquer et à défendre avec agilité."/>
+      <Card src="/equipe c basketball.jpg" titre="MENOUE" description="Une équipe de basket-ball qui domine chaque mois, avec des performances constantes."/>
+      <Card src="/last.jpg" titre="WASHINGTON" description="Une équipe de basket-ball qui incarne la fierté de la capitale, avec des joueurs déterminés."/>
      </div>
     </div>
   )

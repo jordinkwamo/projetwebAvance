@@ -12,7 +12,7 @@ const Event1 = () => {
 
      <div className={Styles.cardcont}>
       <Card src="/chelsea.jpg" titre="Chelsea" description="Club de foot de Londres, Angleterre, connu pour son jeu offensif et succès en Premier League." />
-      <Card src="/fcb.jpg" titre="FC Barcelona" description="Club de foot de Barcelone, Espagne, célèbre pour son style de jeu attrayant et succès en Liga." />
+      <Card src="/fcb.jpg" titre="Barcelona" description="Club de foot de Barcelone, Espagne, célèbre pour son style de jeu attrayant et succès en Liga." />
       <Card src="/usa.jpg" titre="Usa" description="Équipe nationale de foot des États-Unis, a atteint les quarts de finale de la Coupe du Monde 2002." />
       <Card src="/brasil.jpg" titre="Brasil" description="Équipe nationale de foot brésilienne, célèbre pour son jeu flamboyant et 5 titres de la Coupe du Monde.
 " />

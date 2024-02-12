@@ -11,10 +11,10 @@ const Event3 = () => {
       <h2 className={Styles.h2}>Equipes Participantes</h2>
 
      <div className={Styles.cardcont}>
-     <Card src="/handball.jpg" titre="Les Faucons Éclairs" description=" Cette équipe de handball est réputée pour sa vitesse et son agilité sur le terrain. Leur jeu rapide et précis rappelle le vol rapide et agile d'un faucon."/>
-      <Card src="/handball2.jpg" titre="Les Éclaireurs du Sud" description="Cette équipe se distingue par sa stratégie tactique et son intelligence de jeu. ."/>
-      <Card src="/handball3.jpg" titre="Les Lames de Feu" description="Les Lames de Feu sont reconnues pour leur jeu flamboyant et spectaculaire. Leur style de jeu dynamique et incisif est comparé à des lames de feu qui dansent à travers l'air."/>
-      <Card src="/handball5.jpg" titre="Les Ombres Mystiques" description="Cette équipe de handball est réputée pour son mystère et son imprévisibilité. "/>
+     <Card src="/handball.jpg" titre="Les Faucons " description="Les yeux perçants du ciel, prêts à repérer l'ennemi de loin."/>
+      <Card src="/handball2.jpg" titre="Les Éclaireurs" description="Les explorateurs intrépides, ouvrant la voie vers l'inconnu."/>
+      <Card src="/handball3.jpg" titre="Les Lames " description="Les maîtres de l'art de l'élimination, rapides et précis."/>
+      <Card src="/handball5.jpg" titre="Les Ombres " description="Les mystérieux, se fondant  accomplir leurs missions secrètes."/>
      </div>
     </div>
   )
