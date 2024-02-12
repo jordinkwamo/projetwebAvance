@@ -1,0 +1,22 @@
+.imgcont{
+    height: 300px;
+    width: 1700px;
+    padding: 10px;
+    gap: 1rem;
+}
+
+.h2{
+    font-size: large;
+    font-style: italic;
+    gap: 1rem;
+    padding: 10px;
+    text-align: center;
+    background-color: beige;
+}
+
+.cardcont{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 10px;
+}
