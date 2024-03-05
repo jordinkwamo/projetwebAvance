@@ -57,7 +57,7 @@ const Links = () => {
             style={{ backgroundColor: "fuchsia" }}
             onClick={onClickHandler}
           >
-            Menu Mobile
+             Menu 
           </button>
           {open && (
             <div className={styles.mobileLinks}>
