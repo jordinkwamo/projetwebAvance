@@ -1,7 +1,7 @@
 .container{
     padding: '2rem';
-    background-color: var(--text);
-    color: var(--bg);
+    background-color: var(--bgNavbar);
+    color: var(--bgsoft);
     display: flex;
     justify-content:  space-between;
     align-items: center;

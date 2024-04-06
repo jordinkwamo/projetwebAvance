@@ -1,82 +1,64 @@
 "use client";
 import Link from "next/link";
-import React, { Fragment, useState } from "react";
-import styles from "./links.module.css";
 import { usePathname } from "next/navigation";
+import React, { useState } from "react";
+import Styles from "./links.module.css";
+import MenuIcon from "@mui/icons-material/Menu";
+import { IconButton } from "@mui/material";
 
-const tab = [
-  {
-    title: "Home",
-    path: "/",
-  },
-  {
-    title: "football",
-    path: "/football",
-  },
-  {
-    title: "basketball",
-    path: "/basketball",
-  },
-  {
-    title: "handball",
-    path: "/handball",
-  },
-
-  {
-    title: "Contact",
-    path: "/Contact",
-  },
+const links = [
+	{
+		title: "Home",
+		path: "/",
+	},
+	{
+		title: "Evenements",
+		path: "/events",
+	},
+	{
+		title: "Contact",
+		path: "/contact",
+	},
 ];
 
 const Links = () => {
-  const [open, setOpen] = useState(false);
-  const pathName = usePathname();
+	const pathName = usePathname();
+	const [open, setOpen] = useState(false);
 
-  const onClickHandler = () => {
-    setOpen(!open);
-  };
-
-  return (
-    <>
-      <div className={styles.container}>
-        <div className={styles.LinksContainer}>
-          {tab.map((item, index) => (
-            <div key={index}>
-              <Link
-                className={pathName === item.path && styles.active}
-                href={item.path}
-              >
-                {item.title}
-              </Link>
-            </div>
-          ))}
-        </div>
-        <div>
-          <button
-            className={styles.mobileButton}
-            style={{ backgroundColor: "fuchsia" }}
-            onClick={onClickHandler}
-          >
-             Menu 
-          </button>
-          {open && (
-            <div className={styles.mobileLinks}>
-              {tab.map((item, index) => (
-                <div key={index}>
-                  <Link
-                    className={pathName === item.path && styles.active}
-                    href={item.path}
-                  >
-                    {item.title}
-                  </Link>
-                </div>
-              ))}
-            </div>
-          )}
-        </div>
-      </div>
-    </>
-  );
+	return (
+		<div className={Styles.container}>
+			<div className={Styles.links}>
+				{links.map((link, index) => (
+					<Link
+						className={pathName === link.path ? `${Styles.active}` : ""}
+						href={link.path}
+						key={index}
+					>
+						{link.title}
+					</Link>
+				))}
+			</div>
+			<div className={Styles.menuButton}>
+				<IconButton onClick={() => setOpen(!open)}>
+					<MenuIcon style={{ color: "white" }} />
+				</IconButton>
+			</div>
+			{open && (
+				<div className={Styles.mobileLinks}>
+					{links.map((link, index) => (
+						<Link
+							className={pathName === link.path ? `${Styles.active}` : ""}
+							href={link.path}
+							key={index}
+							onClick={() => setOpen(!open)}
+						>
+							{link.title}
+						</Link>
+					))}
+				</div>
+			)}
+		</div>
+	);
 };
 
 export default Links;

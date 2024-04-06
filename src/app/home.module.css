@@ -1,14 +1,9 @@
-.imgContainer{
-    position: relative;
-    width: 50%;
-    height: 300px;
+.containerHome {
+	display: flex;
+	flex-direction: column;
 }
-.desc{
-    display: block;
-    text-align: center;
-    font-style: italic;
-    font-size: medium;
-    height: 200px;
-    width: 500px;
-    margin: 0% 100% 0% 30%;
+
+.containerCard {
+	display: flex;
+	gap: 20px;
 }

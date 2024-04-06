@@ -1,4 +1,5 @@
 import { connectToDb } from "@/libs/connectToDb";
+import { Event } from "@/libs/models";
 import { NextResponse } from "next/server";
 
 export async function GET(request, { params }) {

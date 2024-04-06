@@ -1,0 +1,29 @@
+.table {
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 0.9rem;
+	min-width: 400px;
+}
+
+.table thead tr {
+	background-color: #300c53;
+	color: #fff;
+	text-align: left;
+}
+
+.table th,
+.table td {
+	padding: 12px 15px;
+}
+
+.table tbody tr {
+	border-bottom: #9b9b9b;
+}
+
+.table tbody tr:nth-of-type(even) {
+	background-color: #cccace;
+}
+
+.table tbody tr:last-of-type {
+	border-bottom: #300c53;
+}
